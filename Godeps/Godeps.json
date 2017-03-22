@@ -1,0 +1,35 @@
+{
+	"ImportPath": "github.com/st3v/go-syslogd",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v77",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "gopkg.in/mcuadros/go-syslog.v2",
+			"Comment": "v2.2.1",
+			"Rev": "9cf13b7327c0e153da3cba3540c2ae2b879c3859"
+		},
+		{
+			"ImportPath": "gopkg.in/mcuadros/go-syslog.v2/format",
+			"Comment": "v2.2.1",
+			"Rev": "9cf13b7327c0e153da3cba3540c2ae2b879c3859"
+		},
+		{
+			"ImportPath": "gopkg.in/mcuadros/go-syslog.v2/internal/syslogparser",
+			"Comment": "v2.2.1",
+			"Rev": "9cf13b7327c0e153da3cba3540c2ae2b879c3859"
+		},
+		{
+			"ImportPath": "gopkg.in/mcuadros/go-syslog.v2/internal/syslogparser/rfc3164",
+			"Comment": "v2.2.1",
+			"Rev": "9cf13b7327c0e153da3cba3540c2ae2b879c3859"
+		},
+		{
+			"ImportPath": "gopkg.in/mcuadros/go-syslog.v2/internal/syslogparser/rfc5424",
+			"Comment": "v2.2.1",
+			"Rev": "9cf13b7327c0e153da3cba3540c2ae2b879c3859"
+		}
+	]
+}
